@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xA;&#x9;'phi' operation ('a') with incoming values : ('i', Desktop/explo/Square_Root_explo.c:48) ('a', Desktop/explo/Square_Root_explo.c:50) ('a_5_cast', Desktop/explo/Square_Root_explo.c:63) (0 ns)&#xA;&#x9;'mul' operation ('tmp_29', Desktop/explo/Square_Root_explo.c:69) (3.36 ns)&#xA;&#x9;'sub' operation ('remainder', Desktop/explo/Square_Root_explo.c:69) (3.82 ns)&#xA;&#x9;'bitconcatenate' operation ('p_shl1', Desktop/explo/Square_Root_explo.c:71) (0 ns)&#xA;&#x9;'add' operation ('tmp5', Desktop/explo/Square_Root_explo.c:71) (1.68 ns)&#xA;&#x9;'add' operation ('temp', Desktop/explo/Square_Root_explo.c:71) (1.68 ns)&#xA;&#x9;'sdiv' operation ('tmp_1', Desktop/explo/Square_Root_explo.c:72) (5.03 ns)" projectName="root_explo" solutionName="solution1" date="2017-04-20T11:48:48.464+0530" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (15.6ns) exceeds the target (target clock period: 15ns, clock uncertainty: 1.88ns, effective delay budget: 13.1ns)." projectName="root_explo" solutionName="solution1" date="2017-04-20T11:48:48.459+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

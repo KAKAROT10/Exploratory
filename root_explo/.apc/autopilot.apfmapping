@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Square_Root_explo.c" path="/root/Desktop/explo/Square_Root_explo.c"/>
+  </source>
+  <testbench>
+    <originFiles name="result1.golden.dat" path="/root/Desktop/explo/result1.golden.dat"/>
+    <originFiles name="square_root_test_bench2.c" path="/root/Desktop/explo/square_root_test_bench2.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

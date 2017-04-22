@@ -1,0 +1,17 @@
+<project xmlns="com.autoesl.autopilot.project" top="Square_root" name="root_explo">
+    <includePaths/>
+    <libraryPaths/>
+    <Simulation>
+        <SimFlow name="csim" csimMode="0" lastCsimMode="0"/>
+    </Simulation>
+    <files xmlns="">
+        <file name="../../Desktop/explo/square_root_test_bench2.c" sc="0" tb="1" cflags=" "/>
+        <file name="../../Desktop/explo/result1.golden.dat" sc="0" tb="1" cflags=" "/>
+        <file name="Desktop/explo/Square_Root_explo.c" sc="0" tb="false" cflags=""/>
+    </files>
+    <solutions xmlns="">
+        <solution name="solution1" status="inactive"/>
+        <solution name="solution2" status="active"/>
+    </solutions>
+</project>
+
